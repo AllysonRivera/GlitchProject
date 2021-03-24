@@ -1,0 +1,91 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white; 
+}
+
+h1 {
+  color: #fffff;
+  font-family: verdana, arial, sans-serif; 
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:4px;
+}
+
+#button1{
+  background: lightgreen;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px black;
+}
+#button1:active, #button1.lit{
+    background:green;
+    border: 1px solid;
+    box-shadow: 5px 10px 18px green;
+}
+#button2{
+  background: lightblue;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px black;
+}
+#button2:active, #button2.lit{
+    background:blue;
+    border: 1px solid;
+    box-shadow: 5px 10px 18px blue;
+}
+#button3{
+  background: pink;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px black;
+}
+#button3:active, #button3.lit{
+    background:red;
+    border: 1px solid;
+    box-shadow: 5px 10px 18px red;
+}
+#button4{
+  background: lightyellow;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px black;
+}
+#button4:active, #button4.lit{
+    background:yellow;
+    box-shadow: 5px 10px 18px yellow;
+}
+#button5{
+  background: #DDA0DD;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px black;
+}
+#button5:active, #button5.lit{
+    background:purple;
+    border: 1px solid;
+    box-shadow: 5px 10px 18px purple;
+}
+#button6{
+  background: #ffcc99;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px black;
+}
+#button6:active, #button6.lit{
+    background:orange;
+    border: 1px solid;
+    box-shadow: 5px 10px 18px orange;
+}
+
+
